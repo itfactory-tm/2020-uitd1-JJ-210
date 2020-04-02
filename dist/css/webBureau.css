@@ -1,2 +1,59 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+.masthead{
+    background: url("../img/bg-masthead.jpg"); !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navpos{
+    position: fixed; !important;
+    z-index: 1; !important;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.navside{
+    display: block;
+}
+
+@media screen and (min-width:1500px) {
+    .navpos{
+        position: fixed; !important;
+        z-index: 1; !important;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        display: block;
+    }
+
+    .navside{
+        display: none;
+    }
+}
+
+.home:hover{
+    color: blue;
+}
+
+.artstyles:hover{
+    color: blueviolet;
+}
+
+.artworks:hover{
+    color: deeppink;
+}
+
+.team:hover{
+    color: #ecb807;
+}
+
+.questions:hover{
+    color: lawngreen;
+}
