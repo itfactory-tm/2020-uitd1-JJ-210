@@ -1,5 +1,30 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+.achtergrond-kleuren {
+    background-image: url("../img/achtergrond-colors.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fotos-voorstellen {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.icoontjes-robbe {
+
+}
+
+.tekstjes-voorstellen {
+    width: 30%;
+}
+
+.voorstellen-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .masthead{
     background: url("../img/bg-masthead.jpg"); !important;
     background-repeat: no-repeat;
