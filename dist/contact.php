@@ -23,82 +23,47 @@
     <link rel="stylesheet" href="css/webBureau.css">
 </head>
 
-<body class="bg-contact">
-<nav id="sidebar-wrapper" class="bg-dark">
-    <ul class="sidebar-nav bg-dark">
-        <li class="sidebar-brand">
-            <a class="js-scroll-trigger" href="#page-top">Blank Canvas</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#teamcolors">Team Colors</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#artworks">Artworks</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#artstyles">Art Styles</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#questions">Questions</a>
-        </li>
-    </ul>
-</nav>
+<body class="bg-contactformulier">
 
-<!-- Navigation -->
-<nav class="navbar-expand-lg navpos">
-    <div class="container">
-        <div class="row">
-            <div class="collapse navbar-collapse col-lg-12">
-                <div class="collapse navbar-collapse">
-                    <a class="nav-item nav-link text-body col-lg-2" href="#"><h2 class="home">Home</h2></a>
-                    <a class="nav-item nav-link text-body col-lg-3" href="#teamcolors"><h2 class="team">Team Colors</h2></a>
-                    <a class="nav-item nav-link text-body col-lg-3" href="#artworks"><h2 class="artworks">Artworks</h2></a>
-                    <a class="nav-item nav-link text-body col-lg-3" href="#artstyles"><h2 class="artstyles">Art Styles</h2></a>
-                    <a class="nav-item nav-link text-body col-lg-2" href="#questions"><h2 class="questions">Questions?</h2></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
-
-<h1>Uw formulier</h1>
-<p>Hierkomen al uw keuzes nog eens op een rijtje te staan!</p>
-<hr>
-<?php
-if (isset($_POST["voornaam"]) && $_POST["voornaam"] != "") {
-    echo "<p> Ingevuld bij voornaam: " . $_POST["voornaam"] . "</p>\n";
+<div class="text-center contactmargin">
+    <h1 class="text-white">Uw formulier</h1>
+    <p class="text-white">Hierkomen al uw keuzes nog eens op een rijtje te staan!</p>
+    <br>
+    <?php
+    if (isset($_POST["voornaam"]) && $_POST["voornaam"] != "") {
+        echo '<p class="text-white"> Ingevuld bij voornaam: ' . $_POST["voornaam"] . "</p>\n";
 } else {
-    echo "<p> Voornaam werd niet ingevuld </p>\n";
+        echo '<p class="text-white"> Voornaam werd niet ingevuld </p>\n';
 }
 
-if (isset($_POST["achternaam"]) && $_POST["achternaam"] != "") {
-    echo "<p> Ingevuld bij achternaam: " . $_POST["achternaam"] . "</p>\n";
+    if (isset($_POST["achternaam"]) && $_POST["achternaam"] != "") {
+        echo '<p class="text-white"> Ingevuld bij achternaam: ' . $_POST["achternaam"] . "</p>\n";
 } else {
-    echo "<p> Achternaam werd niet ingevuld </p>\n";
+        echo '<p class="text-white"> Achternaam werd niet ingevuld </p>\n';
 }
 
-if (isset($_POST["email"]) && $_POST["email"] != "") {
-    echo "<p> Ingevuld bij email: " . $_POST["email"] . "</p>\n";
+    if (isset($_POST["email"]) && $_POST["email"] != "") {
+        echo '<p class="text-white"> Ingevuld bij email: ' . $_POST["email"] . "</p>\n";
 } else {
-    echo "<p> Email werd niet ingevuld </p>\n";
+        echo '<p class="text-white"> Email werd niet ingevuld </p>\n';
 }
 
-if (isset($_POST["graffiti"]) && $_POST["graffiti"] != "") {
-    echo "<p> Ingevuld bij de vraag: " . $_POST["graffiti"] . "</p>\n";
+    if (isset($_POST["graffiti"]) && $_POST["graffiti"] != "") {
+        echo '<p class="text-white"> Ingevuld bij de vraag: ' . $_POST["graffiti"] . "</p>\n";
 } else {
-    echo "<p> De vraag werd niet ingevuld </p>\n";
+        echo '<p class="text-white"> De vraag werd niet ingevuld </p>\n';
 }
 
-if (isset($_POST["opmerking"]) && $_POST["opmerking"] != "") {
-    echo "<p> Ingevuld bij opmerkingen: " . $_POST["opmerking"] . "</p>\n";
+    if (isset($_POST["opmerking"]) && $_POST["opmerking"] != "") {
+        echo '<p class="text-white"> Ingevuld bij opmerkingen: ' . $_POST["opmerking"] . "</p>\n";
 } else {
-    echo "<p> Opmerkingen werd niet ingevuld </p>\n";
+        echo '<p class="text-white"> Opmerkingen werd niet ingevuld </p>\n';
 }
 
-?>
+    ?>
+    <br>
+    <a type="button" class="btn btn-primary green">Terug naar pagina</a>
+</div>
 
 </body>
 

@@ -6,10 +6,22 @@
     background-size: cover;
 }
 
+.bg-contactformulier{
+    background: url("../img/bg-contactformulier.jpg"); !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .bg-contact{
     background: url("../img/bg-contact.jpg"); !important;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.contactmargin{
+    padding-top: 100px;
 }
 
 html {
