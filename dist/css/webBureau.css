@@ -6,8 +6,26 @@
     background-size: cover;
 }
 
+.bg-contact{
+    background: url("../img/bg-contact.jpg"); !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+textarea{
+    resize: none;
+}
+
+.green{
+    background-color: #317431;
+}
+
+.violet{
+    background-color: #743174;
 }
 
 .navpos{

@@ -225,15 +225,58 @@
 </section>
 
 <!-- Contact -->
-<section id="questions" class="content-section">
+<section id="questions" class="content-section bg-contact">
     <div class="container text-center">
         <div class="content-section-heading text-center">
-            <h3 class="text-secondary mb-0">Contact</h3>
-            <h2 class="mb-5">Contact us</h2>
+            <h2 class="mb-1">Contacteer ons!</h2>
+            <h4 class="mb-4">+ een klein vraagje om ons te helpen :)</h4>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, explicabo iusto? Adipisci aliquam animi
-            autem, cupiditate doloremque enim id nulla numquam quae quasi, qui quidem tempore vel, veniam voluptatem
-            voluptatibus!</p>
+        <form action="https://r0740951.sinners.be/uitdaging1/contact.php" method="post">
+            <div class="row">
+                <div class="form-group col-lg-6">
+                    <label for="voornaam">Voornaam:</label>
+                    <input type="text" class="form-control" id="voornaam" placeholder="typ hier uw voornaam" name="voornaam">
+                </div>
+                <br>
+                <div class="form-group col-lg-6">
+                    <label for="achternaam">Achternaam:</label>
+                    <input type="text" class="form-control" id="achternaam" placeholder="typ hier uw achternaam" name="achternaam">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="form-group col-lg-6">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="typ hier uw email" name="email">
+                    <small id="emailHelp" class="form-text text-muted">Deze blijft privé!</small>
+                </div>
+                <div class="col-lg-6">
+                    <p>Vind u graffiti een misdaad of eerder een kunstwerk?</p>
+                    <div class="row">
+                        <div class="form-check col-lg-6">
+                            <input type="radio" class="form-check-input" id="crime" name="graffiti" value="Ik vind het een misdaad">
+                            <label class="form-check-label" for="crime">Ik vind het een misdaad</label>
+                        </div>
+                        <div class="form-check col-lg-6">
+                            <input type="radio" class="form-check-input" id="art" name="graffiti" value="Ik vind het een kunstwerk">
+                            <label class="form-check-label" for="art">Ik vind het een kunstwerk</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p>
+                <label for="opmerking">Wat is uw vraag/opmerking?</label>
+            </p>
+            <p>
+                <textarea rows="3" cols="50" id="opmerking" name="opmerking"></textarea>
+            </p>
+            <br>
+            <button type="submit" class="btn green">Submit</button>
+            <br>
+            <br>
+            <button type="reset" class="btn violet">Reset</button>
+        </form>
     </div>
 </section>
 
