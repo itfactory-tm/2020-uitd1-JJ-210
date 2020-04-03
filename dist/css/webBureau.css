@@ -26,7 +26,7 @@
 }
 
 .masthead{
-    background: url("../img/bg-masthead.jpg"); !important;
+    background: url("../img/brown-wall-foto.jpg"); !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -128,4 +128,17 @@ textarea{
 
 .achtergrond-artworks {
     background-color: #66cccc;
+}
+
+.header-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.header-titel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
