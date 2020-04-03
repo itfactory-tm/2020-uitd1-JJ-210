@@ -39,10 +39,25 @@
 }
 
 .bg-contact{
-    background: url("../img/bg-contact.jpg"); !important;
+    background: url("../img/bg-contact.png"); !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.hoverlink{
+    color: white;
+}
+
+.hoverlink:hover{
+    color: blueviolet;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    color: white;
 }
 
 .contactmargin{
@@ -57,8 +72,17 @@ textarea{
     resize: none;
 }
 
+.googlefont{
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
 .green{
     background-color: #317431;
+    color: white;
+}
+
+.violet:hover{
+    color: white;
 }
 
 .violet{
@@ -111,4 +135,8 @@ textarea{
 
 .questions:hover{
     color: lawngreen;
+}
+
+.pdleft{
+    padding-left: 100px;
 }
