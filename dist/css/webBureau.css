@@ -112,3 +112,20 @@ textarea{
 .questions:hover{
     color: lawngreen;
 }
+
+.project-img {
+    width: 44%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project-text {
+    width: 50%;
+    padding-top: 15px;
+}
+
+.achtergrond-artworks {
+    background-color: #66cccc;
+}
